@@ -11,6 +11,7 @@ import os
 # Constants for device indices
 REALTEK_SPEAKERS_INDEX = 3
 CABLE_OUTPUT_INDEX = 1
+A=1
 # Load the trained model and gesture labels
 model = load_model('./saved_models/gesture_recognition_lstm.h5')
 
